@@ -1,0 +1,140 @@
+html {
+    font-size: 62.5%;
+   }
+   
+   header {
+       background-color:#92afcd;
+   }
+   
+   {
+       box-sizing: border-box;
+   }
+   body {
+       font-family: 'Montserrat', sans-serif;
+       line-height: 1.6;
+       margin: 0;
+       min-height: 100vh;
+   }
+   ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+   }
+   
+   
+   h2,
+   h3,
+   a {
+       color:black;
+   }
+   
+   a {
+       text-decoration: none;
+   }
+   
+   
+   
+   .logo {
+       margin: 0;
+       font-size: 3.0rem;
+   }
+   
+   .main-nav {
+       margin-top: 5px;
+   
+   }
+   .logo a,
+   .main-nav a {
+       padding: 10px 15px;
+       text-align: center;
+       display: block;
+   }
+   
+   .main-nav a {
+       color:black;
+       font-size: 1.8rem;
+       border: solid 1px black;
+       
+         }
+   
+   .main-nav a:hover {
+       color: yellow;
+   }
+
+   .display {
+    background-image: url(index.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   } 
+
+   p {
+       font-size: 1.2rem;
+       margin: 50px;
+       padding: 50px;
+   }
+
+   .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    
+ }
+   
+ .cards a {
+    font-size: 2.5rem;
+ }
+
+ .footer {
+     background-color:#92afcd;
+ }
+   
+   
+   @media (min-width: 800px) {
+       .header,
+       .main-nav {
+           display: flex;
+       }
+       .header {
+           flex-direction: column;
+           align-items: center;
+           header {
+           width: 80%;
+        
+           
+       }
+       }
+   
+   }
+   
+       .header {
+           flex-direction: row;
+           justify-content: space-between;
+       }
+   
+   }
+
+   @media (min-width: 500px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        header {
+        width: 80% ;
+        margin: 0 auto;
+        max-width: 1150px;
+    }
+    }
+
+}
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+

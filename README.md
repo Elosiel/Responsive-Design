@@ -24,28 +24,28 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
 
-- [ ] `cd` into your personal portfolio folder
-- [ ] Create a new branch from `<firstName-lastName>`:
+- [x] `cd` into your personal portfolio folder
+- [x] Create a new branch from `<firstName-lastName>`:
 
 ```bash
 git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [x] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
-- [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
-- [ ] Introduce max-width media queries into your project at 800px and 500px
+- [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+- [x] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Add accessability features to your webpage
 - [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 ### Task 2b: Exit Ticket
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR)
+Once you begin, you will have 15 minutes to answer the questions [x](https://app.codesignal.com/public-test/hALhPTQrbZCJtPYhn/F78eZwAGpSS3cR)
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
